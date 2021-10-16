@@ -1,0 +1,219 @@
+html {
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 800px;
+  color: #fbf1c7;
+  background-color: #1d2021;
+  font-size: 1em;
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 1.2em;
+}
+
+code {
+	font-size: .9em;
+	line-height: 1em;
+}
+
+pre {
+  color: #d5c4a1;
+  background-color: #282828;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+h1{font-size: 2em; color: #fb4934;}
+h2{font-size: 1.5em; color: #fabd2f;}
+h3{font-size: 1.25em; color: #8ec07c}
+
+h1, h2, h3 {
+	text-align: left;
+	font-weight: 600;
+}
+
+h1 code{font-size: 30px;}
+h2 code{font-size: 24px;}
+h3 code{font-size: 20px;}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+td {
+  padding-left: 10px;
+  border: 1px #bdae93 solid;
+}
+
+th {
+  color: #ebdbb2;
+  border: 1px #bdae93 solid;
+}
+
+strong {
+  color: #fe8019;
+}
+
+img {margin-left:auto;margin-right: auto; max-width:100%;}
+
+a {color:#83a598;}
+a:visited {color:#d3869b;}
+
+strong code { font-size: 1.2em; }
+/**
+ * Gruvbox dark theme
+ *
+ * Adapted from a theme based on:
+ * Vim Gruvbox dark Theme (https://github.com/morhetz/gruvbox)
+ *
+ * @author Azat S. <to@azat.io>
+ * @version 1.0
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #ebdbb2; /* fg1 / fg */
+	font-family: Consolas, Monaco, "Andale Mono", monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+p::-moz-selection,
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+strong::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
+}
+
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+strong::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"] {
+	background: #1d2021; /* bg0_h */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: #a89984; /* fg4 / gray1 */
+}
+
+.token.keyword,
+.tag .token.punctuation {
+	color:#83a598;
+}
+
+.token.boolean,
+.token.selector,
+.token.important,
+.token.atrule {
+	color: #fb4934; /* red2 */
+}
+
+.token.operator, 
+.token.punctuation {
+	color: #a89984; /* fg4 / gray1 */
+}
+
+.token.tag,
+.token.doctype,
+.token.builtin {
+	color: #fabd2f; /* yellow2 */
+}
+
+.token.entity,
+.token.delimiter,
+.token.number,
+.token.symbol, 
+.token.attr-name {
+	color: #d3869b; /* purple2 */
+}
+
+.token.property,
+.token.constant,
+.token.variable {
+	color: #fb4934; /* red2 */
+}
+
+.token.string,
+.token.char {
+	color: #b8bb26; /* green2 */
+}
+
+.token.attr-value,
+.token.attr-value .punctuation {
+	color: #b8bb26; /* green2 */
+}
+
+.token.url {
+	color: #b8bb26; /* green2 */
+	text-decoration: underline;
+}
+
+.token.function {
+	color: #fabd2f; /* yellow2 */
+}
+
+.token.regex {
+	background: #b8bb26; /* green2 */
+}
+
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.inserted {
+	background: #a89984; /* fg4 / gray1 */
+}
+
+.token.deleted {
+	background: #fb4934; /* red2 */
+}
