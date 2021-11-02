@@ -25,6 +25,8 @@ pre {
   background-color: #282828;
   padding: 10px;
   overflow-x: auto;
+  tab-size: 4;
+  -moz-tab-size: 4;
 }
 
 h1{font-size: 2em; color: #fb4934;}
